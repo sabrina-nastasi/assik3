@@ -28,7 +28,7 @@ class Child2 extends Component {
       (a, b) => daysOrder.indexOf(a.day) - daysOrder.indexOf(b.day)
     );
     const margin = { top: 50, right: 30, bottom: 50, left: 60 },
-      width = 650 - margin.left - margin.right,
+      width = 600 - margin.left - margin.right,
       height = 400 - margin.top - margin.bottom;
     const barSvg = svg
       .attr("width", width + margin.left + margin.right)
